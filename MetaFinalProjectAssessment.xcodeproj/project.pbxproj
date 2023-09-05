@@ -17,6 +17,10 @@
 		74270D942AA7A5E000B5A2B0 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D932AA7A5E000B5A2B0 /* LittleLemonLogo.swift */; };
 		74270D962AA7BEB600B5A2B0 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D952AA7BEB600B5A2B0 /* ReservationForm.swift */; };
 		74270D982AA7BF9A00B5A2B0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D972AA7BF9A00B5A2B0 /* Model.swift */; };
+		74270D9C2AA7C14100B5A2B0 /* RestaurantLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D9B2AA7C14100B5A2B0 /* RestaurantLocation.swift */; };
+		74270D9E2AA7C17200B5A2B0 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D9D2AA7C17200B5A2B0 /* RestaurantView.swift */; };
+		74270DA02AA7C1A500B5A2B0 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D9F2AA7C1A500B5A2B0 /* Reservation.swift */; };
+		74270DA22AA7C1F600B5A2B0 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270DA12AA7C1F600B5A2B0 /* ReservationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		74270D932AA7A5E000B5A2B0 /* LittleLemonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonLogo.swift; sourceTree = "<group>"; };
 		74270D952AA7BEB600B5A2B0 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
 		74270D972AA7BF9A00B5A2B0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		74270D9B2AA7C14100B5A2B0 /* RestaurantLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantLocation.swift; sourceTree = "<group>"; };
+		74270D9D2AA7C17200B5A2B0 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		74270D9F2AA7C1A500B5A2B0 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		74270DA12AA7C1F600B5A2B0 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +73,6 @@
 			children = (
 				74270D7F2AA6AF8800B5A2B0 /* MetaFinalProjectAssessmentApp.swift */,
 				74270D812AA6AF8800B5A2B0 /* ContentView.swift */,
-				74270D8D2AA7985000B5A2B0 /* Notes.swift */,
 				74270D8F2AA7A0E100B5A2B0 /* LocationsView.swift */,
 				74270D912AA7A20100B5A2B0 /* MainView.swift */,
 				74270D972AA7BF9A00B5A2B0 /* Model.swift */,
@@ -73,6 +80,7 @@
 				74270D992AA7C04A00B5A2B0 /* Restaurant */,
 				74270D9A2AA7C06D00B5A2B0 /* Reservation */,
 				74270D832AA6AF8A00B5A2B0 /* Assets.xcassets */,
+				74270D8D2AA7985000B5A2B0 /* Notes.swift */,
 				74270D852AA6AF8A00B5A2B0 /* Preview Content */,
 			);
 			path = MetaFinalProjectAssessment;
@@ -89,6 +97,8 @@
 		74270D992AA7C04A00B5A2B0 /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				74270D9B2AA7C14100B5A2B0 /* RestaurantLocation.swift */,
+				74270D9D2AA7C17200B5A2B0 /* RestaurantView.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -96,7 +106,9 @@
 		74270D9A2AA7C06D00B5A2B0 /* Reservation */ = {
 			isa = PBXGroup;
 			children = (
+				74270D9F2AA7C1A500B5A2B0 /* Reservation.swift */,
 				74270D952AA7BEB600B5A2B0 /* ReservationForm.swift */,
+				74270DA12AA7C1F600B5A2B0 /* ReservationView.swift */,
 			);
 			path = Reservation;
 			sourceTree = "<group>";
@@ -172,7 +184,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				74270D822AA6AF8800B5A2B0 /* ContentView.swift in Sources */,
+				74270DA22AA7C1F600B5A2B0 /* ReservationView.swift in Sources */,
 				74270D902AA7A0E100B5A2B0 /* LocationsView.swift in Sources */,
+				74270D9C2AA7C14100B5A2B0 /* RestaurantLocation.swift in Sources */,
+				74270DA02AA7C1A500B5A2B0 /* Reservation.swift in Sources */,
+				74270D9E2AA7C17200B5A2B0 /* RestaurantView.swift in Sources */,
 				74270D802AA6AF8800B5A2B0 /* MetaFinalProjectAssessmentApp.swift in Sources */,
 				74270D962AA7BEB600B5A2B0 /* ReservationForm.swift in Sources */,
 				74270D922AA7A20100B5A2B0 /* MainView.swift in Sources */,

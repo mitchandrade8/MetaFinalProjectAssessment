@@ -12,7 +12,7 @@ struct LittleLemonLogo: View {
         Image("littleLemonLogo")
             .resizable()
             .scaledToFit()
-            .frame(width: 150)
+            .frame(width: 300)
     }
 }
 
