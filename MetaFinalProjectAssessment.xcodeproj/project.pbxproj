@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		74270D802AA6AF8800B5A2B0 /* MetaFinalProjectAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D7F2AA6AF8800B5A2B0 /* MetaFinalProjectAssessmentApp.swift */; };
-		74270D822AA6AF8800B5A2B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D812AA6AF8800B5A2B0 /* ContentView.swift */; };
 		74270D842AA6AF8A00B5A2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74270D832AA6AF8A00B5A2B0 /* Assets.xcassets */; };
 		74270D872AA6AF8A00B5A2B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74270D862AA6AF8A00B5A2B0 /* Preview Assets.xcassets */; };
 		74270D8E2AA7985000B5A2B0 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D8D2AA7985000B5A2B0 /* Notes.swift */; };
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		74270D7C2AA6AF8800B5A2B0 /* MetaFinalProjectAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaFinalProjectAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74270D7F2AA6AF8800B5A2B0 /* MetaFinalProjectAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaFinalProjectAssessmentApp.swift; sourceTree = "<group>"; };
-		74270D812AA6AF8800B5A2B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74270D832AA6AF8A00B5A2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74270D862AA6AF8A00B5A2B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74270D8D2AA7985000B5A2B0 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				74270D7F2AA6AF8800B5A2B0 /* MetaFinalProjectAssessmentApp.swift */,
-				74270D812AA6AF8800B5A2B0 /* ContentView.swift */,
 				74270D8F2AA7A0E100B5A2B0 /* LocationsView.swift */,
 				74270D912AA7A20100B5A2B0 /* MainView.swift */,
 				74270D972AA7BF9A00B5A2B0 /* Model.swift */,
@@ -183,7 +180,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74270D822AA6AF8800B5A2B0 /* ContentView.swift in Sources */,
 				74270DA22AA7C1F600B5A2B0 /* ReservationView.swift in Sources */,
 				74270D902AA7A0E100B5A2B0 /* LocationsView.swift in Sources */,
 				74270D9C2AA7C14100B5A2B0 /* RestaurantLocation.swift in Sources */,
