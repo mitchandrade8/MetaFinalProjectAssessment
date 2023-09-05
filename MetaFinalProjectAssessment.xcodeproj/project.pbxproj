@@ -15,6 +15,8 @@
 		74270D902AA7A0E100B5A2B0 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D8F2AA7A0E100B5A2B0 /* LocationsView.swift */; };
 		74270D922AA7A20100B5A2B0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D912AA7A20100B5A2B0 /* MainView.swift */; };
 		74270D942AA7A5E000B5A2B0 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D932AA7A5E000B5A2B0 /* LittleLemonLogo.swift */; };
+		74270D962AA7BEB600B5A2B0 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D952AA7BEB600B5A2B0 /* ReservationForm.swift */; };
+		74270D982AA7BF9A00B5A2B0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D972AA7BF9A00B5A2B0 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		74270D8F2AA7A0E100B5A2B0 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		74270D912AA7A20100B5A2B0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		74270D932AA7A5E000B5A2B0 /* LittleLemonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonLogo.swift; sourceTree = "<group>"; };
+		74270D952AA7BEB600B5A2B0 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
+		74270D972AA7BF9A00B5A2B0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +66,12 @@
 				74270D7F2AA6AF8800B5A2B0 /* MetaFinalProjectAssessmentApp.swift */,
 				74270D812AA6AF8800B5A2B0 /* ContentView.swift */,
 				74270D8D2AA7985000B5A2B0 /* Notes.swift */,
-				74270D912AA7A20100B5A2B0 /* MainView.swift */,
 				74270D8F2AA7A0E100B5A2B0 /* LocationsView.swift */,
+				74270D912AA7A20100B5A2B0 /* MainView.swift */,
+				74270D972AA7BF9A00B5A2B0 /* Model.swift */,
 				74270D932AA7A5E000B5A2B0 /* LittleLemonLogo.swift */,
+				74270D992AA7C04A00B5A2B0 /* Restaurant */,
+				74270D9A2AA7C06D00B5A2B0 /* Reservation */,
 				74270D832AA6AF8A00B5A2B0 /* Assets.xcassets */,
 				74270D852AA6AF8A00B5A2B0 /* Preview Content */,
 			);
@@ -77,6 +84,21 @@
 				74270D862AA6AF8A00B5A2B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74270D992AA7C04A00B5A2B0 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		74270D9A2AA7C06D00B5A2B0 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				74270D952AA7BEB600B5A2B0 /* ReservationForm.swift */,
+			);
+			path = Reservation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +174,11 @@
 				74270D822AA6AF8800B5A2B0 /* ContentView.swift in Sources */,
 				74270D902AA7A0E100B5A2B0 /* LocationsView.swift in Sources */,
 				74270D802AA6AF8800B5A2B0 /* MetaFinalProjectAssessmentApp.swift in Sources */,
+				74270D962AA7BEB600B5A2B0 /* ReservationForm.swift in Sources */,
 				74270D922AA7A20100B5A2B0 /* MainView.swift in Sources */,
 				74270D942AA7A5E000B5A2B0 /* LittleLemonLogo.swift in Sources */,
 				74270D8E2AA7985000B5A2B0 /* Notes.swift in Sources */,
+				74270D982AA7BF9A00B5A2B0 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
