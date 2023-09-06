@@ -8,20 +8,27 @@
 import SwiftUI
 
 struct LocationsView: View {
-    @EnvironmentObject var model:Model
+    
+    @EnvironmentObject var model: Model
+    
     var body: some View {
         VStack {
             LittleLemonLogo() // 1
                 .padding(.top, 50)
             
-            EmptyView() // 2
+            Text(model.displayingReservationForm ? "Reservation Details" : "Select a location") // 2
             .padding([.leading, .trailing], 40)
             .padding([.top, .bottom], 8)
             .background(Color.gray.opacity(0.2))
             .cornerRadius(20)
             
             NavigationView {
-                EmptyView() // 3
+                List(model.restaurants, id: \.self) { restaurant in
+                    NavigationLink(destination: ReservationForm(restaurant)) {
+                        RestaurantView(restaurant)
+                    }
+                }
+                .listStyle(PlainListStyle())
                 .navigationBarTitle("")
                 .navigationBarHidden(true)
             }
