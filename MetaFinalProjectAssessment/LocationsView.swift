@@ -42,3 +42,4 @@ struct LocationsView_Previews: PreviewProvider {
         LocationsView().environmentObject(Model())
     }
 }
+
